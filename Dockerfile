@@ -4,7 +4,7 @@ ENV HOME /home/netbeans
 
 RUN adduser -D netbeans && \
     apk update && \
-    apk add libxext libxtst libxrender libxi midori && \
+    apk add libxext libxtst libxrender libxi && \
     rm -rf /tmp/* && \
     rm -rf /var/cache/apk/*
 
