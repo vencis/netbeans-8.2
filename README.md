@@ -1,1 +1,1 @@
-# netbeans-8.2
+# netbeans 8.2 x11 with midori browser
