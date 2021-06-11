@@ -17,7 +17,7 @@ VOLUME /data
 VOLUME ~/.netbeans
 VOLUME ~/NetBeansProjects
 
-ENV NETBEANS_URL=https://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-php-linux-x64.sh
+ENV NETBEANS_URL=https://synapse.internet-portal.cz/downloads/netbeans-8.2-php-linux-x64.sh
 ENV NB_TEMP=/tmp/netbeans-install
 RUN wget $NETBEANS_URL -O /tmp/netbeans.sh \
         && echo "Installing NetBeans..." \
