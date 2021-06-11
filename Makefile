@@ -1,7 +1,7 @@
 APP_VERSION = $(strip $(shell cat VERSION))
 GIT_COMMIT = $(strip $(shell git rev-parse --short HEAD))
 
-DOCKER_IMAGE ?= internetportal/netbeans-8.2
+DOCKER_IMAGE ?= internetportal/netbeans-x11
 DOCKER_TAG = $(APP_VERSION)
 
 # Build Docker image
